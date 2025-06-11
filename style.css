@@ -1,0 +1,53 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fee5a6;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.pokebola-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+#pokebola {
+  transition: transform 1s ease;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.banner-container {
+  opacity: 0;
+  transition: opacity 1s ease;
+  margin-top: 20px;
+}
+
+.banner-container img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.texto {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #e49b91;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.carta-container {
+  opacity: 0;
+  transition: opacity 1s ease;
+  margin-top: 20px;
+}
+
+.carta-container img {
+  width: 80%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+}
